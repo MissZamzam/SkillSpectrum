@@ -8,9 +8,9 @@
     box-sizing: border-box;
 }
 :root{
-    --color-primary: #6c63ff;
+--color-primary: #6c63ff;
 --color-success: #88bf8e;
---﻿color-warning: #f7c94b;
+--color-warning: #f7c94b;
 --color-danger: #f75842;
 --color-danger-variant:rgba(247, 88, 66, 0.4);
 --color-white:#fff;
@@ -24,7 +24,7 @@
 --container-width-nd: 90%;
 --container-width-sm: 94%;
 
-transition: all 468ms ease;
+--transition: all 468ms ease;
 }
 
 body{
@@ -39,4 +39,99 @@ body{
 }
 section{
     padding: 6rem 0;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+}
+h1{
+    font-size: 2.4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+a{
+    color: var(--color-white);
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.btn{
+    display: inline-block;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: var(--transition);
+}
+.btn:hover{
+    background-color: transparent;
+    color: var(--color-white);
+    background-color: var(--color-white);
+}
+.btn-primary{
+    background-color:var(--color-danger);
+    color: var(--color-white);
+}
+
+/* ==================NAVBAR=================== */
+nav{
+    background-color: transparent;
+    width: 100vw;
+    height: 8rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+.nav__container{
+    height:100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button{
+    display: none;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.nav_menu a{
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+.nav_menu a:hover{
+    color: var(--color-bg2);
+}
+
+/* ==================HEADER=================== */
+header{
+    position: relative;
+    top: 7rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+}
+.header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.header__left p{
+    margin: 1rem 0 2.4rem;
 }
