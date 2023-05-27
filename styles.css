@@ -118,6 +118,7 @@ nav button{
 }
 
 /* ==================HEADER=================== */
+
 header{
     position: relative;
     top: 7rem;
@@ -134,4 +135,9 @@ header{
 }
 .header__left p{
     margin: 1rem 0 2.4rem;
+}
+
+/* ==================CATEGORIES=================== */
+.categories{
+    
 }
