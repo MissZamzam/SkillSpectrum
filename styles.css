@@ -7,6 +7,7 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 :root{
 --color-primary: #6c63ff;
 --color-success: #88bf8e;
@@ -67,6 +68,7 @@ img{
     display: block;
     object-fit: cover;
 }
+
 .btn{
     display: inline-block;
     background-color: var(--color-white);
@@ -76,6 +78,7 @@ img{
     font-weight: 500;
     transition: var(--transition);
 }
+
 .btn:hover{
     background-color: transparent;
     color: var(--color-white);
@@ -218,17 +221,22 @@ font-size: 0.85rem;
 /* ==================POPULAR COURSES=================== */
 .courses{
     margin-top: 10rem;
+        border-radius: 10px;
+
 }
 .courses__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:2rem ;
+    
 }
 .course{
     background-color: var(--color-bg2);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    border-radius: 10px;
+
 }
 
 .course:hover{
@@ -242,4 +250,21 @@ font-size: 0.85rem;
 .course__info p{
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
+}
+
+/* ==================FAQS=================== */
+.faqs{
+    background-color: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5) ;
+}
+
+.faqs__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+
+}
+.faq{
+    background-color: var(--color-bg2);
+    padding: 2rem;
 }
