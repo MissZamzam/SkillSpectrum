@@ -102,6 +102,7 @@ img{
     color: var(--color-white);
 }
 
+
 /* ==================NAVBAR=================== */
 nav{
     background-color: transparent;
@@ -140,6 +141,7 @@ nav button{
     color: var(--color-bg2);
 }
 
+
 /* ==================HEADER=================== */
 
 header{
@@ -160,10 +162,11 @@ header{
     margin: 1rem 0 2.4rem;
 }
 
+
 /* ==================CATEGORIES=================== */
 .categories{
     background-color: var(--color-bg1);
-    height: 29rem;
+    height: 32rem;
 }
 
 .categories h1{
@@ -217,8 +220,6 @@ header{
 }
 
 
-
-
 .category__icon{
     background-color: var(--color-primary);
     padding: 0.7rem;
@@ -232,6 +233,7 @@ font-size: 0.85rem;
 }
 
 /* ==================POPULAR COURSES=================== */
+
 .courses{
     margin-top: 10rem;
         border-radius: 10px;
@@ -392,3 +394,6 @@ footer ul li a:hover{
     padding: 1.2rem 0;
     border-top: 1px solid var(--color-bg2);
 }
+
+
+/* ==================MEDIA QUERIES(TABLETS=================== */
