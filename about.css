@@ -129,3 +129,21 @@ transition: var(--transition);
     padding: 1rem;
 }
 }
+
+/* ==================MEDIA QUERIES(PHONES)=================== */
+@media screen and (max-width:600px){
+   .achievements__cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+   }
+   .team__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+   }
+   .team__member{
+    padding: 0;
+   }
+   .team__member p{
+    margin-bottom: 1.5rem;
+   }
+}
