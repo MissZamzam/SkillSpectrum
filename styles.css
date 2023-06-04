@@ -9,7 +9,7 @@
 }
 
 :root{
---color-primary: #6c63ff;
+--color-primary: #00a86b; 
 --color-success: #88bf8e;
 --color-warning: #f7c94b;
 --color-danger: #f75842;
@@ -17,9 +17,13 @@
 --color-white:#fff;
 --color-light: rgba(255, 255,  255, 0.7);
 --color-black: #800;
---color-bg:#1f2641;
---color-bg1: #2e3267;
---color-bg2:#474d94;
+--color-bg: #224f38; 
+--color-bg1: #318552; 
+--color-bg2: #48a06b; 
+
+
+
+
 
 /* 
 --color-primary: #3e8c61;
@@ -45,7 +49,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--color-white);
-    background-color: var(--color-bg);
+    /* background-color: var(--color-bg); */
 }
 .container{
     width: var(--container-width-1g);
@@ -125,6 +129,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.nav__container h4{
+    color: var(--color-bg);
+}
 nav button{
     display: none;
 }
@@ -136,6 +143,8 @@ nav button{
 .nav_menu a{
     font-size: 0.9rem;
     transition: var(--transition);
+    color: var(--color-bg);
+
 }
 .nav_menu a:hover{
     color: var(--color-bg2);
@@ -158,14 +167,22 @@ header{
     gap: 5rem;
     height: 100%;
 }
+.header__left h1{
+    color: var(--color-bg1);
+
+}
 .header__left p{
     margin: 1rem 0 2.4rem;
-}
+    color: var(--color-bg1);
 
+}
+.header__right img{
+    box-shadow:  1rem 1rem 2rem 3rem white;
+}
 
 /* ==================CATEGORIES=================== */
 .categories{
-    background-color: var(--color-bg1);
+    background-color: var(--color-bg);
     height: 32rem;
 }
 
@@ -239,6 +256,9 @@ font-size: 0.85rem;
     border-radius: 10px;
 
 }
+.courses h2{
+    color: var(--color-bg);
+}
 .courses__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -257,6 +277,7 @@ font-size: 0.85rem;
 .course:hover{
     background-color: transparent;
     border-color: var(--color-primary);
+    color: var(--color-bg);
 }
 .course__info{
     padding: 2rem;
@@ -329,7 +350,9 @@ font-size: 0.85rem;
 }
 .testimonial__info{
     text-align: center;
+    color: var(--color-bg);
 }
+
 .testimonial__body{
     background-color: var(--color-primary);
     padding: 2rem;
