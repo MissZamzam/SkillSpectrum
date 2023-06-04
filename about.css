@@ -22,6 +22,7 @@ padding: 1.6rem;
 border-radius: 1rem;
 text-align: center;
 transition: var(--transition);
+color: var(--color-light);
 }
 .achievement__card:hover{
     background-color: var(--color-bg2);
@@ -51,7 +52,7 @@ transition: var(--transition);
 
 /* ==================TEAMS=================== */
 .team{
-    background-color: var(--color-bg1);
+    /* background-color: var(--color-bg1); */
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 .team__container{
@@ -84,7 +85,7 @@ transition: var(--transition);
     margin-top: 1.4rem;
 }
 .team__member-info p{
-    color: var(--color-light);
+    /* color: var(--color-light); */
 }
 .team__member-socials{
     position: absolute;
