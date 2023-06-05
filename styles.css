@@ -99,7 +99,7 @@ img{
 .btn:hover{
     background-color: transparent;
     color: var(--color-white);
-    background-color: var(--color-white);
+    background-color: var(--color-success);
 }
 .btn-primary{
     background-color:var(--color-danger);
@@ -218,6 +218,7 @@ header{
 .category:hover{
     box-shadow: 0 3rem 3rem rgb(0, 0, 0, 0.3);
     z-index: 1;
+    cursor: pointer;
 }
 
 .category:nth-child(2) .category__icon{
@@ -515,44 +516,7 @@ footer ul li a:hover{
     color: var(--color-white);
    }
 
-   /* ==================HEADER=================== */
    
-   header{
-    height: 52vh;
-    margin-bottom: 4rem;
-   }
-
-   .header__container{
-    gap: 0;
-    padding-bottom: 3rem;
-   }
-
-      /* ==================CATEGORIES=================== */
-
-      .categories{
-        height: auto;
-      }
-      .categories__container{
-        grid-template-columns: 1fr;
-        gap: 3rem;
-      }
-      .categories__left{
-        margin-right: 0;
-      }
-/* ==================POPULAR COURSES=================== */
-.courses{
-    margin-top: 0;
-}
-.courses__container{
-    grid-template-columns: 1fr 1fr;
-}
-/* ==================FAQ=================== */
-.faqs__container{
-    grid-template-columns: 1fr;
-}
-.faq{
-    padding: 1.5rem;
-}
 
 /* ==================FOOTER=================== */
 .footer__container{
