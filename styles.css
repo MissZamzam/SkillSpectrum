@@ -159,7 +159,7 @@ header{
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
-    background-color: rgb(243, 243, 243);
+    /* background-color: rgb(243, 243, 243); */
 }
 .header__container{
     display: grid;
@@ -178,7 +178,7 @@ header{
 
 }
 .header__right img{
-    box-shadow:  7rem 2rem 2rem 8rem rgb(243, 243, 243);
+    box-shadow:  1rem 2rem 2rem 1rem rgb(243, 243, 243);
 }
 
 /* ==================CATEGORIES=================== */
@@ -221,20 +221,29 @@ header{
     z-index: 1;
 }
 
+
+.category:nth-child(1) .category__icon{
+    background-color: var(--color-bg);
+}
+
 .category:nth-child(2) .category__icon{
     background-color: var(--color-danger);
 }
 
 .category:nth-child(3) .category__icon{
-    background-color: var(--color-success);
-}
-
-.category:nth-child(4) .category__icon{
     background-color: var(--color-warning);
 }
 
+.category:nth-child(4) .category__icon{
+    background-color: var(--color-light);
+}
+
 .category:nth-child(5) .category__icon{
-    background-color: var(--color-success);
+    background-color: var(--color-bg1);
+}
+
+.category:nth-child(6) .category__icon{
+    background-color: var(--color-black);
 }
 
 
@@ -243,8 +252,11 @@ header{
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
+
 .category h5{
     margin: 2rem 0 1rem;
+    color: var(--color-white);
+    font-size: large;
 }
 .category p{
 font-size: 0.85rem;
@@ -448,7 +460,7 @@ footer ul li a:hover{
     display: inline-block;
     background-color: transparent;
     font-size: 1.8rem;
-    color: var(--color-whte);
+    color: black;
     cursor: pointer;
    }
    nav button#close-menu-btn{
