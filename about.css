@@ -69,7 +69,7 @@ color: var(--color-light);
     gap: 2rem;
 }
 .team__member{
-    background-color: var(--color-bg2);
+    background-color: rgb(88, 167, 88);
     padding: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
