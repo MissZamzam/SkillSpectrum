@@ -17,9 +17,9 @@
 --color-white:#fff;
 --color-light: rgba(255, 255,  255, 0.7);
 --color-black: #800;
---color-bg: #224f38; 
+--color-bg: #0b4d2c; 
 --color-bg1: #318552; 
---color-bg2: #48a06b; 
+--color-bg2: green; 
 
 
 
@@ -99,7 +99,7 @@ img{
 .btn:hover{
     background-color: transparent;
     color: var(--color-white);
-    background-color: var(--color-white);
+    background-color: var(--color-success);
 }
 .btn-primary{
     background-color:var(--color-danger);
@@ -141,7 +141,7 @@ nav button{
     gap: 4rem;
 }
 .nav_menu a{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     transition: var(--transition);
     color: var(--color-bg);
 
@@ -212,13 +212,14 @@ header{
 .category{
     background-color: var(--color-bg2);
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     transition: var(--transition);
     
 }
 .category:hover{
     box-shadow: 0 3rem 3rem rgb(0, 0, 0, 0.3);
     z-index: 1;
+    cursor: pointer;
 }
 
 
@@ -239,7 +240,7 @@ header{
 }
 
 .category:nth-child(5) .category__icon{
-    background-color: var(--color-bg1);
+    background-color: var(--color-danger-variant);
 }
 
 .category:nth-child(6) .category__icon{
@@ -262,7 +263,7 @@ header{
 font-size: 0.85rem;
 }
 
-/* ==================POPULAR COURSES=================== */
+/* ==================POPULAR PROGRAMS=================== */
 
 .courses{
     margin-top: 10rem;
@@ -291,6 +292,7 @@ font-size: 0.85rem;
     background-color: transparent;
     border-color: var(--color-primary);
     color: var(--color-bg);
+    cursor: pointer;
 }
 .course__info{
     padding: 2rem;
@@ -320,7 +322,7 @@ font-size: 0.85rem;
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
-    background-color: var(--color-primary);
+    background-color: var(--color-bg);
     cursor: pointer;
 
 }
@@ -347,6 +349,9 @@ font-size: 0.85rem;
     overflow: hidden;
     position: relative;
     margin-bottom: 5rem;
+}
+.testimonials__container h2{
+    color: var(--color-bg);
 }
 
 .testimonial{
