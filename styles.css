@@ -181,7 +181,7 @@ header{
 
 /* ==================CATEGORIES=================== */
 .categories{
-    background-color: var(--color-bg);
+    background-color: #2a3147;
     height: 32rem;
 }
 
@@ -208,7 +208,7 @@ header{
     gap: 1rem;
 }
 .category{
-    background-color: var(--color-bg2);
+    background-color: var(--color-bg1);
     padding: 2rem;
     border-radius: 1rem;
     transition: var(--transition);
@@ -219,6 +219,26 @@ header{
     z-index: 1;
     cursor: pointer;
 }
+
+.category:nth-child(1){
+    background-color: rgb(179, 32, 32);
+}
+.category:nth-child(2){
+    background-color: rgb(89, 89, 223);
+}
+.category:nth-child(3){
+    background-color: rgb(22, 124, 22);
+}
+.category:nth-child(4){
+    background-color: rgb(105, 105, 6);
+}
+.category:nth-child(5){
+    background-color: rgb(66, 17, 66);
+}
+.category:nth-child(6){
+    background-color: rgb(13, 0, 128);
+}
+
 
 
 .category:nth-child(1) .category__icon{
