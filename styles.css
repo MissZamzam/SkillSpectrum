@@ -637,8 +637,9 @@ footer ul li a:hover{
         gap: 0.5rem;
     }
     .category{
-        padding: 1rem;
+        padding: 1rem 0.2rem;
         border-radius: 1rem;
+        padding-left: 1rem;
     }
     .category__icon{
         margin-top: 1px;
