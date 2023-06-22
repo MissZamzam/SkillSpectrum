@@ -158,7 +158,8 @@ header{
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
-    /* background-color: rgb(243, 243, 243); */
+    /* background-color: rgb(170, 18, 18); */
+
 }
 .header__container{
     display: grid;
@@ -168,12 +169,12 @@ header{
     height: 100%;
 }
 .header__left h1{
-    color: grey;
+    color: rgb(201, 61, 138);
 
 }
 .header__left p{
     margin: 1rem 0 2.4rem;
-    color: grey;
+    color: rgb(128, 128, 128);
 
 }
 
@@ -470,118 +471,11 @@ footer ul li a:hover{
 
 
 
-@media screen and (max-width: 1280px) and (max-height: 1181px) {
-   
-
-
-    .header__left h1{
-        color: grey;
-        font-size: 15px;
-    
-    }
-    .header__left p{
-        margin: 0.9rem 0 2rem;
-        color: grey;
-        font-size: 13px;
-    
-    }
-
-}
 
 /* ==================MEDIA QUERIES(BIGGER SCREENS)=================== */
 
 @media screen and (max-width: 1280px) {
-    /* General styling */
-   .container{
-    width: var(--container-width-md);
-   }
-   h1{
-    font-size: 2rem;
-   }
-   h2{
-    font-size: 1.7rem;
-   }
-   h3{
-    font-size: 1.4rem;
-   }
-   h4{
-    font-size: 1.2rem;
-   }
-
-
-   /* ==================NAVBAR=================== */
-   nav button{
-    display: inline-block;
-    background-color: transparent;
-    font-size: 1.8rem;
-    color: black;
-    cursor: pointer;
-   }
-   nav button#close-menu-btn{
-    display: none;
-   }
-   .nav_menu{
-    position: fixed;
-    top: 5rem;
-    right: 5%;
-    height: fit-content;
-    width: 18rem;
-    flex-direction: column;
-    gap: 0;
-    display: none;
-   }
-   .nav_menu li{
-    width: 100%;
-    height: 5.8rem;
-    /* add animation here after done with keyframes */
-    animation: animateNavItems 400ms linear forwards;
-    transform-origin: top right;
-    opacity: 0;
-   }
-
-   .nav_menu li:nth-child(2){
-    animation-delay: 200ms;
-   }
-   .nav_menu li:nth-child(3){
-    animation-delay: 400ms;
-   }
-   .nav_menu li:nth-child(4){
-    animation-delay: 600ms;
-   }
-
-
-/* add animation */
-/* add this keyframes after done with JS */
-@keyframes animateNavItems{
-    0%{
-        transform: rotateZ(-90deg);
-        /* more animation */
-        /* transform: rotateZ(-90deg) rotateX(90deg) scale(0.1); */
-
-
-    }
-    100%{
-        transform: rotateZ(0);
-    /* transform: rotateZ(0) rotateX(0) scale(1); */
-        opacity: 1;
-    }
-}
-
-
-   .nav_menu li a{
-    background-color: var(--color-primary);
-    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-   }
-   
-   .nav_menu li a:hover{
-    background-color: var(--color-bg2);
-    color: var(--color-white);
-   }
-
+  
    /* ==================HEADER=================== */
    
    header{
@@ -594,6 +488,15 @@ footer ul li a:hover{
     padding-bottom: 3rem;
    }
 
+   .header__left h1{
+    font-size: 15px;
+
+}
+.header__left p{
+    margin: 0.9rem 0 2rem;
+    font-size: 13px;
+
+}
       /* ==================CATEGORIES=================== */
 
       .categories{
