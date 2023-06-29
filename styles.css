@@ -94,6 +94,7 @@ img{
     border: 1px solid transparent;
     font-weight: 500;
     transition: var(--transition);
+    
 }
 
 .btn:hover{
