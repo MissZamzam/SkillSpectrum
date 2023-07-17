@@ -20,9 +20,9 @@ git clone https://github.com/your-username/SkillSpectrum.git
 
 Include Swiper JS, an external JavaScript library, inside your project. You can load it from the provided CDN (Content Delivery Network) URL. Swiper is a popular library used for creating sliders and carousels.
 
+` <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>` 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-Start a local development server or open the website in your preferred browser at http://localhost:3000.
+Start a local development server or open the website in your preferred browser at http://localhost:3000. 
 
 ## Technologies
 
