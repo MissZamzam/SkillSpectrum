@@ -7,24 +7,20 @@ SkillSpectrum is a daycare website built using HTML, CSS, and JavaScript. It aim
 
 To run the SkillSpectrum website locally, follow these steps:
 
-Clone the repository to your local machine:
+1.Clone the repository to your local machine:
 
-bash
-Copy code
 git clone https://github.com/your-username/SkillSpectrum.git
-Install the dependencies:
 
-bash
-Copy code
-cd SkillSpectrum
-Create necessary folders and files locally.
 
-Add Swiper JS:
+2.cd SkillSpectrum
+
+3.Create necessary folders and files locally.
+
+4.Add Swiper JS:
 
 Include Swiper JS, an external JavaScript library, inside your project. You can load it from the provided CDN (Content Delivery Network) URL. Swiper is a popular library used for creating sliders and carousels.
 
-html
-Copy code
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 Start a local development server or open the website in your preferred browser at http://localhost:3000.
 
@@ -48,6 +44,10 @@ FAQ Accordion: The FAQs section utilizes an accordion-style design. When a user 
 Testimonials Slider: The project integrates the Swiper.js library to create a testimonials section with a slider functionality. Users can navigate through testimonials using pagination and enjoy a smooth and interactive testimonial browsing experience.
 
 Smooth Scrolling: The website implements smooth scrolling, ensuring a seamless transition when users click on navigation links. This feature provides a polished and user-friendly browsing experience.
+
+Social Media Integration: SkillSpectrum includes links to the daycare's social media accounts, allowing users to connect with the daycare center on platforms like Instagram, Twitter, Facebook, and LinkedIn.
+
+
 
 These features collectively contribute to an engaging and user-centric website, allowing visitors to easily navigate, access information, and interact with the content.
 
