@@ -37,7 +37,8 @@ Swiper JS
 
 SkillSpectrum incorporates the following key features:
 
-Responsive Navigation Menu: The project includes a responsive navigation menu that adapts to different screen sizes. The menu style changes when the user scrolls, providing a visually pleasing effect.
+### Responsive Navigation Menu: 
+The project includes a responsive navigation menu that adapts to different screen sizes. The menu style changes when the user scrolls, providing a visually pleasing effect.
 
 FAQ Accordion: The FAQs section utilizes an accordion-style design. When a user clicks on a question, the corresponding answer expands or collapses, allowing for a compact display of frequently asked questions.
 
