@@ -48,6 +48,12 @@ The FAQs section utilizes an accordion-style design. When a user clicks on a que
 
  #### Smooth Scrolling
  The website implements smooth scrolling, ensuring a seamless transition when users click on navigation links. This feature provides a polished and user-friendly browsing experience.
+Formspree Email Integration: SkillSpectrum uses Formspree to handle the email functionality. Users can submit inquiries or contact the daycare center directly through the website, and the form data will be sent to the designated email address.
+
+ #### Formspree Email Integration
+ SkillSpectrum uses Formspree to handle the email functionality. Users can submit inquiries or contact the daycare center directly through the website, and the form data will be sent to the designated email address.
+
+
 
  #### Social Media Integration
   SkillSpectrum includes links to the daycare's social media accounts, allowing users to connect with the daycare center on platforms like Instagram, Twitter, Facebook, and LinkedIn.
