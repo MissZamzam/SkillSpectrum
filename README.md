@@ -37,17 +37,20 @@ Swiper JS
 
 SkillSpectrum incorporates the following key features:
 
-### Responsive Navigation Menu: 
+#### Responsive Navigation Menu: 
 The project includes a responsive navigation menu that adapts to different screen sizes. The menu style changes when the user scrolls, providing a visually pleasing effect.
 
 #### FAQ Accordion
 The FAQs section utilizes an accordion-style design. When a user clicks on a question, the corresponding answer expands or collapses, allowing for a compact display of frequently asked questions.
 
-Testimonials Slider: The project integrates the Swiper.js library to create a testimonials section with a slider functionality. Users can navigate through testimonials using pagination and enjoy a smooth and interactive testimonial browsing experience.
+ #### Testimonials Slider
+ The project integrates the Swiper.js library to create a testimonials section with a slider functionality. Users can navigate through testimonials using pagination and enjoy a smooth and interactive testimonial browsing experience.
 
-Smooth Scrolling: The website implements smooth scrolling, ensuring a seamless transition when users click on navigation links. This feature provides a polished and user-friendly browsing experience.
+ #### Smooth Scrolling
+ The website implements smooth scrolling, ensuring a seamless transition when users click on navigation links. This feature provides a polished and user-friendly browsing experience.
 
-Social Media Integration: SkillSpectrum includes links to the daycare's social media accounts, allowing users to connect with the daycare center on platforms like Instagram, Twitter, Facebook, and LinkedIn.
+ #### Social Media Integration
+  SkillSpectrum includes links to the daycare's social media accounts, allowing users to connect with the daycare center on platforms like Instagram, Twitter, Facebook, and LinkedIn.
 
 
 
